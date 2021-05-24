@@ -1,0 +1,503 @@
+:root{
+  --lightblue-: rgb(107, 134, 156);
+  --iceWhite-:rgb(248, 249, 250);
+  --bubbleBlue-: rgb(84, 142, 197);
+  --itemWhite-: rgb(235, 240, 240);
+  --itemBlue-:rgb(107, 134, 156);
+  --descriptionGray: rgb(146, 136, 136);
+  --menuitem-: rgb(239, 243, 245);
+
+}
+
+* {margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 93.75%;
+}
+
+body{
+  
+  font-family: 'Poppins', sans-serif;
+  background: var(--iceWhite-);
+  
+}
+
+
+
+
+header{
+
+  background: var(--iceWhite-);
+  justify-content: center;
+  
+}
+
+
+#logo {
+  width: 10rem;
+  height: 11rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.6rem;
+}
+
+
+.menu{
+  background-color: var(--iceWhite);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+}
+
+.menuitem{
+
+  padding:2rem;
+  border-radius: 0.8rem;
+  font-weight: bold;
+  text-decoration:none;
+  font-size: 1.1rem;
+  color:var(--itemBlue-);
+  text-transform: uppercase;
+  display: block;
+  justify-content: center;
+
+}
+
+
+
+
+
+.menuitem:hover {
+  background-color:rgb(205, 205, 212);
+  
+}
+
+
+.Container1 {
+
+  background-color:  rgb(224, 224, 231);
+  display: grid;
+  grid-template-columns:1fr 4fr;
+  color: var(--bubbleBlue-);
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+#consultInfo{
+  font-size: 1.8rem;
+  color: var(--lightblue-);
+  text-align: center;
+  background:rgb(224, 224, 231);
+  
+}
+
+#draw {
+  width:20rem;
+  height: 20rem;
+  
+}
+
+
+.Container1 img {
+  height: 3.2rem;
+  width: 3.2rem;
+  padding: 0;
+  margin-right: 4rem;
+  margin-top: 3rem;
+}
+
+.Container1 h3 {
+  font-weight: normal;
+  margin-right: 15rem;
+  font-size: 1.3rem;
+  color: var(--itemBlue-);
+  text-align: center;
+  padding: 0;
+  margin-bottom: 1rem;
+  
+}
+
+.descriptions {
+    padding: 2rem;
+    text-align: justify;
+    background: var(--iceWhite-);
+    border-width: 2px;
+    border-style:none;
+    border-color: var(--lightblue-);
+    border-radius: 0.8rem;
+    margin-bottom: 1rem;
+    margin-right: 12rem;
+  
+}
+
+
+
+.Container2 {
+  
+  background: var(--iceWhite-);
+  display: grid;
+  grid-template-columns:1fr 4fr;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#drawStet {
+  width: 10rem;
+  height: 10rem;
+  margin-left: 4rem;
+}
+
+
+#consultAreas {
+  font-size: 1.8rem;
+  color: var(--lightblue-);
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+}
+
+.cardsArea ul li{
+ list-style: none;
+}
+
+.descript1 {
+  color: var(--bubbleBlue-);
+  padding: 0.8rem;
+  text-align: center;
+  background: rgb(224, 224, 231);
+  border-width: 2px;
+  border-style:none;
+  border-width: 2px;
+  border-color: var(--lightblue-);
+  font-size: 1.1rem;
+  border-radius: 0.8rem;
+  margin-bottom: 2rem;
+  margin-right: 12rem;
+
+}
+
+
+.Container3 {
+  
+  background:  rgb(224, 224, 231);
+  display: grid;
+  grid-template-columns:1fr 4fr;
+  align-items: center;
+  color: var(--lightblue-);
+  justify-content: center;
+  padding: 1rem;
+}
+
+#fotoMedica {
+
+  width: 25rem;
+  height: 35rem;
+  margin-top: 5rem;
+  margin-left: 0rem; 
+  
+}
+
+.cardsAbout {
+  
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#about {
+  background:  rgb(224, 224, 231);
+  font-size: 1.8rem;
+  color: var(--lightblue-);
+  margin-top: 2rem;
+  text-align: center;
+}
+
+
+.cardsAbout ul li {
+  color: var(descriptionGray-);
+  text-align: center;
+  list-style: none;
+}
+
+
+.cardsAbout h3{
+  padding: 0.5rem;
+  background: var(--itemWhite-);
+  margin-top: 1rem;
+  margin-right: 12rem;
+  text-align: center;
+  border-radius: 0.8rem;
+}
+
+.cardsAbout p{
+  padding: 0.4rem;
+  margin-right: 12rem;
+}
+
+.whatsapp-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+}
+
+.fa-whatsapp {
+  margin-top: 16px; 
+}
+
+
+.Container4 {
+  background: var(--iceWhite-);
+  color: var(--lightblue-);
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  text-align:center;
+
+}
+
+.Local {
+  font-size: 1.8rem;
+  color: var(--lightblue-);
+  text-align: center;
+}
+
+.Local p{
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-align: right;
+  margin-left: 10rem;
+  
+}
+
+.smallMap{
+  margin-top: 2rem;
+}
+
+footer {
+  background-color:  rgb(224, 224, 231);
+  height: 6rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+/*
+
+
+*/
+/* Responsive ==============*/
+
+
+
+@media (max-width: 1044px) {
+  html {
+    font-size: 75%;
+  }
+
+  *menu {
+    width: 70%;
+    margin:0 auto;
+  
+  }
+
+  .menu ul li {
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    margin-left: 0;
+}
+
+.menuitem {
+  padding: 0.2rem;
+}
+
+ #logo {
+   width: 10rem;
+   height: 11rem;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 68%;
+  }
+
+  *menu {
+    width: 50%;
+    margin:0 auto;
+  
+  }
+
+  .menu ul li {
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    margin-left: 0;
+}
+
+.menuitem {
+  padding: 2rem;
+}
+
+ #logo {
+   width: 10rem;
+   height: 11rem;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+
+  *menu {
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  .menu ul li {
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    margin-left: 0;
+}
+
+#logo {
+  width: 8rem;
+  height: 8rem;
+ }
+
+ #fotoMedica {
+   width: 25rem;
+   height: 35rem;
+   margin-top: 0rem;
+ }
+
+}
+
+
+@media (max-width: 425px) {
+  html {
+    font-size: 55%;
+    width: 100%;
+  }
+
+  *menu {
+    width: 100%;
+    margin: 0 auto;
+    
+  }
+
+  .menu{
+    background-color: var(--iceWhite-);
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  }
+
+.menuitem {
+  padding: 0.2rem;
+  font-size: 90%
+}
+
+#logo {
+  width: 9rem;
+  height: 9rem;
+ }
+
+ #draw {
+   display: none;
+   visibility: hidden;
+ }
+
+ .Container1{
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  justify-content: center;
+ }
+
+ .Container1 h3{
+   margin-right:0;
+ }
+
+  #drawStet {
+    display: none;
+    visibility: hidden;
+  }
+
+  .Container2 {
+  
+    
+    display: grid;
+    grid-template-columns:1fr;
+    text-align: center;
+    justify-content: center;
+    
+  }
+
+  
+
+
+  .cardsArea p {
+    text-align: justify;
+  }
+  .Container3 {
+  
+    background:  rgb(224, 224, 231);
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align:center;
+    color: var(--lightblue-);
+  }
+  
+  #fotoMedica {
+    width: 25rem;
+    height: 35rem;
+    margin-top: 10rem;
+    text-align: center;
+  }
+
+  .cardsAbout h3, p{
+      margin-left: 12rem;
+  }
+  
+}
+
+.Container4{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.Container4 p{
+  text-align: center;;
+  margin-right: 12rem;
+}
+
+footer p{
+  margin-right: 12rem;
+  text-align: center;
+}
